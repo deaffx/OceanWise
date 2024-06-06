@@ -11,6 +11,10 @@ body {
   overflow-x: hidden;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* CTA */
 .cta {
   display: flex;
@@ -181,6 +185,98 @@ div .card-text img {
   margin: 0;
 }
 
+.section-1 .container-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 34px 15px;
+  width: 100%;
+}
+
+.section-1 .left-content,
+.section-1 .right-content {
+  flex: 1;
+  margin: 10px;
+  max-width: 45%;
+}
+
+.section-1 .left-content img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 26px #00000051;
+  margin-right: 20px;
+}
+
+.section-1 .right-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 45%;
+}
+
+.section-1 .right-content h2 {
+  color: #ffffff;
+  text-shadow: 0px 8px 24px #00000051;
+  font-size: 42px;
+  font-weight: 500;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.section-1 .right-content p {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 0 0 20px 0;
+  text-align: left;
+}
+
+.section-1 .right-content .cadastro,
+.section-1 .right-content .login {
+  background-color: #0d6ede;
+  --color: #0d6ede;
+  font-family: inherit;
+  width: 11em;
+  height: 2.9em;
+  line-height: 2.5em;
+  margin: 10px 0; /* Ajusta o espaçamento vertical */
+  overflow: hidden;
+  border: none;
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 19px;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .section-1 .container-2 {
+    flex-direction: column;
+  }
+
+  .section-1 .left-content,
+  .section-1 .right-content {
+    max-width: 100%;
+  }
+
+  .section-1 .right-content {
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-1 .right-content h2,
+  .section-1 .right-content p {
+    text-align: center;
+  }
+}
+
 #faq {
   display: flex;
   justify-content: center;
@@ -206,6 +302,7 @@ div .card-text img {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 div .right-content .cadastro,
@@ -324,6 +421,16 @@ div .right-content .login {
 
 /* CONTATO STYLES */
 
+.profile-menu {
+  position: relative;
+  z-index: 1; /* Define uma posição no eixo Z para a div do perfil */
+}
+
+.main {
+  position: relative;
+  z-index: 0; /* Define uma posição no eixo Z para o conteúdo principal */
+}
+
 .container-1 {
   min-height: 100vh;
   display: flex;
@@ -338,8 +445,8 @@ div .right-content .login {
 }
 
 .profile-menu {
-  height: 900px;
-  width: 50%;
+  height: 80%;
+  width: 70%;
   padding: 90px;
   margin: 40px auto;
 
@@ -347,7 +454,7 @@ div .right-content .login {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  gap: 60px;
+  gap: 20px;
 
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26);
   border-radius: 10px;
@@ -442,8 +549,8 @@ div .right-content .login {
 /* DONATE STYLES */
 
 .profile-image img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 html {

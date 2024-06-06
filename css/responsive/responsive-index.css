@@ -19,6 +19,7 @@
   .section-1 {
     height: auto;
   }
+
   .faq {
     flex-direction: column;
   }
@@ -160,5 +161,109 @@
   }
   footer .faixa .right a {
     font-size: 12px;
+  }
+}
+
+.custom-section {
+  width: 100%;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.custom-section .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.custom-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.custom-section p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 34px;
+  background: linear-gradient(45deg, #5b49fc, #100952);
+  height: 434px; /* Adicione esta linha para ajuste de altura */
+}
+
+.section-1 .container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.section-1 .left-content {
+  flex: 1;
+  text-align: center;
+}
+
+.section-1 .right-content {
+  flex: 1;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-1 .section-image {
+  height: 400px;
+  max-width: 100%;
+}
+
+.section-1 h2 {
+  color: #ffffff;
+  text-shadow: 0px 8px 24px #00000051;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.section-1 .buttons a {
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .section-1 {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+  .section-1 .container-2 {
+    flex-direction: column;
+  }
+  .section-1 .left-content,
+  .section-1 .right-content {
+    width: 100%;
+    text-align: center;
+  }
+  .section-1 .section-image {
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .section-1 h2 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .section-1 h2 {
+    font-size: 32px;
+  }
+  .section-1 .section-image {
+    display: none;
   }
 }
