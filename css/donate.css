@@ -19,7 +19,7 @@ body {
 }
 
 .profile-menu {
-  height: 500px;
+  height: 600px;
   width: 50%;
   padding: 40px;
   margin: 40px auto;
@@ -45,6 +45,18 @@ body {
   justify-content: center;
   align-items: center;
   padding: 30px;
+}
+
+.card-p {
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  transition: box-shadow 0.3s ease;
+}
+
+.card-p:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .button-container {
@@ -127,10 +139,17 @@ body {
 }
 
 .profile-image img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+/* ICON CSS */
+.icon {
+  width: 24px;
+  vertical-align: middle;
+  margin-right: 8px;
 }

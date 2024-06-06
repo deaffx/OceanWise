@@ -300,16 +300,25 @@ div .right-content .login {
   font-size: 16px;
 }
 
+.faq-answer {
+  display: none;
+  margin-top: 10px;
+}
+
+.faq-question.active + .faq-answer {
+  display: block;
+}
+
 /* Media Query para dispositivos móveis */
 @media (max-width: 768px) {
   .faq-card {
-    flex-direction: column; /* Muda para coluna em dispositivos móveis */
-    text-align: center; /* Centraliza o texto em dispositivos móveis */
+    flex-direction: column;
+    text-align: center;
   }
 
   .faq-left,
   .faq-right {
-    padding-left: 0; /* Remove o padding esquerdo */
+    padding-left: 0;
   }
 }
 
