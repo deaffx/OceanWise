@@ -1,0 +1,136 @@
+@import "header.css";
+@import "footer.css";
+
+/* GLOBALS */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif !important;
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-menu {
+  height: 500px;
+  width: 50%;
+  padding: 40px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.26);
+  border-radius: 10px;
+}
+
+.profile-menu .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.profile-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-container button {
+  background-color: #0d6ede;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  padding: 16px 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.profile-menu h2 {
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+  font-size: 38px;
+  font-weight: bold;
+  color: #000;
+}
+
+.profile-menu p {
+  text-shadow: 0 5px 10px rgba(0, 0, 0, 0.26);
+  font-size: 20px;
+  padding: 10px;
+  color: #000;
+}
+
+.profile-menu .profiles-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  flex-grow: 1;
+}
+
+.profile-menu .profiles-wrapper .profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+
+  flex-grow: 1;
+}
+
+.profile-menu .profiles-wrapper .profile-card .profile-infos {
+  width: 100%;
+
+  padding: 20px;
+  text-align: center;
+  line-height: 0.9em;
+  font-size: 22px;
+  color: #000;
+  border-top: 1px solid #000000;
+}
+
+.profile-menu .profiles-wrapper .profile-card .profile-links {
+  width: 100%;
+
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+
+  border-top: 1px solid #000000;
+}
+
+.profile-menu .profiles-wrapper .profile-card .profile-links img {
+  width: 24px;
+  border-radius: 50%;
+}
+.profile-menu a {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile-image img {
+  width: 120px;
+  height: 120px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
