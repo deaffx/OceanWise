@@ -1,0 +1,25 @@
+@media screen and (max-width: 420px) {
+  .login-menu {
+    width: 360px;
+  }
+
+  .login-menu .login-form .login-btn {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .login-menu {
+    width: 320px;
+  }
+
+  .login-menu .login-form .login-btn {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .login-menu {
+    width: 300px;
+  }
+}

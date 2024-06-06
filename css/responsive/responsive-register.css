@@ -1,0 +1,25 @@
+@media screen and (max-width: 420px) {
+  .register-menu {
+    width: 360px;
+  }
+
+  .register-menu .register-form .register-btn {
+    width: 240px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .register-menu {
+    width: 320px;
+  }
+
+  .register-menu .register-form .register-btn {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .register-menu {
+    width: 300px;
+  }
+}

@@ -1,0 +1,37 @@
+@media screen and (max-width: 1120px) {
+  .profile-menu {
+    width: 340px;
+  }
+  footer .faixa .left {
+    font-size: 12px;
+  }
+  footer .faixa .right a {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .profile-menu {
+    width: 280px;
+  }
+  footer .redes-sociais a img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .redes-sociais a {
+    width: 32px;
+    height: 32px;
+  }
+
+  footer .logo {
+    max-width: 100px;
+    display: block;
+  }
+
+  footer .faixa .left {
+    font-size: 12px;
+  }
+  footer .faixa .right a {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,52 @@
+@media screen and (max-width: 1200px) {
+  .profile-menu {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .profile-menu {
+    width: 400px;
+    height: 1280px;
+    padding: 50px;
+  }
+
+  .profile-menu .profiles-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .profile-menu {
+    width: 280px;
+    height: 1400px;
+  }
+
+  .profile-menu h2 {
+    text-align: center;
+  }
+
+  .profile-menu .profiles-wrapper {
+    flex-direction: column;
+  }
+  footer .redes-sociais a img {
+    width: 30px;
+    height: 30px;
+  }
+  footer .redes-sociais a {
+    width: 32px;
+    height: 32px;
+  }
+
+  footer .logo {
+    max-width: 100px;
+    display: block;
+  }
+
+  footer .faixa .left {
+    font-size: 12px;
+  }
+  footer .faixa .right a {
+    font-size: 12px;
+  }
+}
